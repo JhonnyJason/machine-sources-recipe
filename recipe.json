@@ -1,0 +1,29 @@
+{
+    "staticBase": [
+        ["merge"],
+        {
+            "merge": ["https://github.com/JhonnyJason/machine-sources-base"]
+        }
+    ],
+    "ressources": [
+        ["submodule"],
+        ["use"],
+        {
+            "use": ["https://github.com/JhonnyJason/machine-installer-ressources"]
+        }
+    ],
+    "source": [
+        ["submodule"],
+        ["use"],
+        {
+            "use": ["https://github.com/JhonnyJason/machine-installer-source"]
+        }
+    ],
+    "templates": [
+        ["submodule"],
+        ["use"],
+        {
+            "use": ["https://github.com/JhonnyJason/machine-installer-templates"]
+        }
+    ]
+}
